@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+streamlit
+python-dotenv
+langchain
+langchain-openai
+langgraph
+serpapi
+sendgrid
+pybind11
+requests
+unstructured
+google-search-results
