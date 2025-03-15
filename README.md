@@ -16,6 +16,10 @@
 - **Memory Support**  
   The system saves your trip details and agent responses, allowing for accurate follow-up queries.
 
+- **Added Tool Registry and Abstract Class Framework**
+  
+  The project leverages an abstract class framework and a dynamic tool registry to seamlessly integrate diverse travel functionalities into one intelligent assistant.
+
 ## Setup
 
 1. **Clone the repository:**
