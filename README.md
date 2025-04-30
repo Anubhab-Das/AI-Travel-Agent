@@ -20,6 +20,28 @@
   
   The project leverages an abstract class framework and a dynamic tool registry to seamlessly integrate diverse travel functionalities into one intelligent assistant.
 
+
+Project Overview:
+A travel planning chatbot that assists users in planning trips, checking real-time hotel and flight data, and offering recommendations based on preferences.
+
+Key Features:
+
+Live travel data via SerpAPI.
+Weather forecasts via OpenWeatherMap.
+Chat-based trip planning UI with fallback error handling.
+Technologies Used:
+
+Languages: Python
+Frameworks: LangGraph, FastAPI, Streamlit
+APIs: SerpAPI, OpenWeatherMap
+
+Workflow:
+
+User interacts with the chatbot via the frontend.
+Inputs are passed to a LangGraph agent for intent recognition and data fetching.
+Backend APIs retrieve flights, hotels, and weather info.
+Aggregated results are displayed in a user-friendly chat format.
+
 ## Setup
 
 1. **Clone the repository:**
